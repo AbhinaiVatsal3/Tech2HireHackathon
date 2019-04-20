@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/techolution"
+        android:id="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/techolution" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/roleTitle"
+        android:textSize="30sp"
+        android:text="@string/adminLogin"
+        android:layout_below="@+id/logo"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/roleTitle"
+        android:id="@+id/credentials"
+        android:layout_marginTop="30dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/user_name"
+        android:lines="1"
+        android:id="@+id/username"
+        android:textSize="25sp"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_margin="10dp"
+        android:lines="1"
+        android:hint="@string/password"
+        android:id="@+id/password"
+        android:textSize="25sp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_below="@id/credentials"
+        android:layout_marginTop="30dp"
+        android:background="#8cff66"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:onClick="login"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switchToUser"
+        android:id="@+id/switchRoles"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="italic"
+        android:onClick="switchUser"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

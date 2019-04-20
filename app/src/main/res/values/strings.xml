@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TecholutionATM</string>
+    <string name="title_activity_maps">Techolution ATM</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="techolution">Techolution</string>
+    <string name="login">Login</string>
+    <string name="adminLogin">Admin login</string>
+    <string name="userLogin">User login</string>
+    <string name="switchToAdmin">Login as Admin</string>
+    <string name="switchToUser">Login as User</string>
+    <string name="addAtm">Add an ATM</string>
+    <string name="noAtmDesc">You havn\'t added any ATM, Please add an ATM</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="admin">ADMIN</string>
+    <string name="save">SAVE</string>
+</resources>
